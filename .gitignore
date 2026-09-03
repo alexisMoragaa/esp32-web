@@ -1,0 +1,23 @@
+# Dependencias instaladas localmente.
+node_modules/
+
+# Salida generada para producción y pruebas.
+dist/
+coverage/
+
+# Archivos locales de configuración y secretos.
+.env
+.env.*
+!.env.example
+
+# Archivos del sistema y editores.
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+*.swp
+
+# Logs y archivos temporales.
+*.log
+tmp/
+.cache/
