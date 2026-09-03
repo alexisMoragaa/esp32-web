@@ -5,6 +5,7 @@ import { defineConfig } from 'vite';
  * @returns {import('vite').UserConfig}
  */
 export default defineConfig({
+  base: '/esp32-web/',
   build: {
     rollupOptions: {
       input: {
