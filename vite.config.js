@@ -5,7 +5,11 @@ import { defineConfig } from 'vite';
  * @returns {import('vite').UserConfig}
  */
 export default defineConfig({
-  // base: '/esp32-web/',
+  /**
+   * Usa rutas relativas para que los archivos funcionen tanto en la ESP32-S3
+   * como dentro del subdirectorio de GitHub Pages.
+   */
+  base: './',
   build: {
     rollupOptions: {
       input: {
